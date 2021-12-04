@@ -31,6 +31,20 @@ Above lies the database schema. It can be noted that there are no integrity cons
 - The quality checks suffice for keeping data integrity;
 - The ```fact_analytical``` view's query does the other part in keeping integrity.
 
+
+These are the data definition tables for the above data model:
+
+- ```staging_etherscan```:
+
+![title](./img/staging_etherscan.png)
+
+- ```staging_trading```:
+
+![title](./img/staging_trading.png)
+
+- ```fact_analytical```:
+
+![title](./img/fact_analytical.png)
 ### ETL run
 
 As mentioned before, the ETL is run with this [Jupyter notebook](./Udacity-CP.ipynb), which includes:
